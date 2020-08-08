@@ -1,0 +1,63 @@
+:root {
+	--dark: #272324;
+}
+* {
+	box-sizing: border-box;
+}
+body,
+html {
+	height: 100%;
+	font-family: 'Press Start 2P', cursive;
+	color: greenyellow;
+	background-color: var(--dark);
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+input {
+	display: inline-block;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 1.2rem;
+	width: 70%;
+	color: greenyellow;
+	background: transparent;
+	border: none;
+	caret-color: greenyellow;
+}
+input:focus {
+	outline: none;
+}
+#input-container {
+	position: absolute;
+	bottom: 3rem;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	width: 80%;
+}
+#terminal {
+	display: inline-block;
+	width: fit-content;
+}
+#text {
+	width: 30rem;
+}
+#container {
+	display: none;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+#start {
+	width: 5rem;
+	height: 2.5rem;
+}
+#options {
+	text-align: left;
+	line-height: 2rem;
+}
